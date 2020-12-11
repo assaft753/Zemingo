@@ -7,23 +7,36 @@
 
 import UIKit
 
+// View Controller that represents the first View Controller
 class FirstViewController: UIViewController {
-
+    
+    // MARK:- Storyboard referenced properties
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var timeLabel: UILabel!
+    @IBOutlet private weak var feedLabel: UILabel!
+    
+    // MARK:- Properties
+    private lazy var dateFormatter: DateFormatter = {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/yyyy HH:mm:ss"
+        dateFormatter.locale = Locale.current
+        return dateFormatter
+    }()
+    
+    // MARK:- View Controller Life-Cycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        nameLabel.text = "Assaf Tayouri"
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        timeLabel.text = "\(dateFormatter.string(from: Date()))"
     }
-    */
-
+    
+    // MARK:- Methods
+    func updateFeedLabel(for feed: Feed) {
+        feedLabel.text = "\(feed.title) - \(feed.description)"
+    }
 }

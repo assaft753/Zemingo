@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+// Protocol (Using as delegate design pattern) for events of picking a feed
+protocol FeedPickable: class {
+    func feedPicked(feed: Feed)
+}
+

@@ -3,27 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70423F9B257EE67F00A85D91 /* RSSFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70423F9A257EE67F00A85D91 /* RSSFetcher.swift */; };
+		70423FA0257EEC1400A85D91 /* FeedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70423F9F257EEC1400A85D91 /* FeedError.swift */; };
+		70423FA4257EEC8D00A85D91 /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70423FA3257EEC8D00A85D91 /* FeedParser.swift */; };
+		704F9AA9257E509800A6A623 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AA8257E509800A6A623 /* SecondViewController.swift */; };
+		704F9AAD257E535800A6A623 /* FeedPickable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AAC257E535800A6A623 /* FeedPickable.swift */; };
+		704F9AB0257E55B800A6A623 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AAF257E55B800A6A623 /* FeedViewController.swift */; };
+		704F9AB3257E58A800A6A623 /* CarFeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AB2257E58A800A6A623 /* CarFeedsViewController.swift */; };
+		704F9AC4257E595A00A6A623 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AC2257E595A00A6A623 /* FeedTableViewCell.swift */; };
+		704F9AC5257E595A00A6A623 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 704F9AC3257E595A00A6A623 /* FeedTableViewCell.xib */; };
+		704F9AC8257E622400A6A623 /* SportAndCultureFeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AC7257E622400A6A623 /* SportAndCultureFeedsViewController.swift */; };
+		704F9ACB257E6A1000A6A623 /* FeedDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9ACA257E6A1000A6A623 /* FeedDescriptionViewController.swift */; };
+		704F9ACE257E733A00A6A623 /* Serviceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9ACD257E733A00A6A623 /* Serviceable.swift */; };
+		704F9AD2257E73A100A6A623 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AD1257E73A100A6A623 /* CarService.swift */; };
+		704F9AD7257E76DE00A6A623 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F9AD6257E76DE00A6A623 /* NotificationName.swift */; };
 		70D7E9FB257E473000C611DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7E9FA257E473000C611DA /* AppDelegate.swift */; };
 		70D7E9FD257E473000C611DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7E9FC257E473000C611DA /* SceneDelegate.swift */; };
-		70D7E9FF257E473000C611DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7E9FE257E473000C611DA /* ViewController.swift */; };
+		70D7E9FF257E473000C611DA /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7E9FE257E473000C611DA /* MainTabViewController.swift */; };
 		70D7EA02257E473000C611DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D7EA00257E473000C611DA /* Main.storyboard */; };
 		70D7EA04257E473100C611DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D7EA03257E473100C611DA /* Assets.xcassets */; };
 		70D7EA07257E473100C611DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D7EA05257E473100C611DA /* LaunchScreen.storyboard */; };
+		70D7EA12257E49AA00C611DA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7EA11257E49AA00C611DA /* FirstViewController.swift */; };
+		70D7EA17257E4AC600C611DA /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D7EA16257E4AC600C611DA /* Feed.swift */; };
+		70E853F2257EF91600528BCE /* SportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E853F1257EF91600528BCE /* SportService.swift */; };
+		70E853F5257EFC4500528BCE /* CultureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E853F4257EFC4500528BCE /* CultureService.swift */; };
+		9DA82F0777F3A86B422114B9 /* Pods_Zemingo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30D61E233CF0D0E257EF78 /* Pods_Zemingo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52427AFE6A1F338D498CCB61 /* Pods-Zemingo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zemingo.debug.xcconfig"; path = "Target Support Files/Pods-Zemingo/Pods-Zemingo.debug.xcconfig"; sourceTree = "<group>"; };
+		70423F9A257EE67F00A85D91 /* RSSFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFetcher.swift; sourceTree = "<group>"; };
+		70423F9F257EEC1400A85D91 /* FeedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedError.swift; sourceTree = "<group>"; };
+		70423FA3257EEC8D00A85D91 /* FeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
+		704F9AA8257E509800A6A623 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		704F9AAC257E535800A6A623 /* FeedPickable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPickable.swift; sourceTree = "<group>"; };
+		704F9AAF257E55B800A6A623 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		704F9AB2257E58A800A6A623 /* CarFeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFeedsViewController.swift; sourceTree = "<group>"; };
+		704F9AC2257E595A00A6A623 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		704F9AC3257E595A00A6A623 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		704F9AC7257E622400A6A623 /* SportAndCultureFeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportAndCultureFeedsViewController.swift; sourceTree = "<group>"; };
+		704F9ACA257E6A1000A6A623 /* FeedDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDescriptionViewController.swift; sourceTree = "<group>"; };
+		704F9ACD257E733A00A6A623 /* Serviceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serviceable.swift; sourceTree = "<group>"; };
+		704F9AD1257E73A100A6A623 /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+		704F9AD6257E76DE00A6A623 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		70D7E9F7257E473000C611DA /* Zemingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zemingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D7E9FA257E473000C611DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70D7E9FC257E473000C611DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70D7E9FE257E473000C611DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70D7E9FE257E473000C611DA /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		70D7EA01257E473000C611DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70D7EA03257E473100C611DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70D7EA06257E473100C611DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70D7EA08257E473100C611DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D7EA11257E49AA00C611DA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		70D7EA16257E4AC600C611DA /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		70E853F1257EF91600528BCE /* SportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportService.swift; sourceTree = "<group>"; };
+		70E853F4257EFC4500528BCE /* CultureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultureService.swift; sourceTree = "<group>"; };
+		D10C32CC1E3E1743E7C390E7 /* Pods-Zemingo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zemingo.release.xcconfig"; path = "Target Support Files/Pods-Zemingo/Pods-Zemingo.release.xcconfig"; sourceTree = "<group>"; };
+		FB30D61E233CF0D0E257EF78 /* Pods_Zemingo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zemingo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA82F0777F3A86B422114B9 /* Pods_Zemingo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70423F98257EE66200A85D91 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				70423F9A257EE67F00A85D91 /* RSSFetcher.swift */,
+				70423FA3257EEC8D00A85D91 /* FeedParser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		70423F9E257EEBF300A85D91 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				70423F9F257EEC1400A85D91 /* FeedError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		704F9AAB257E534200A6A623 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				704F9AAC257E535800A6A623 /* FeedPickable.swift */,
+				704F9ACD257E733A00A6A623 /* Serviceable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		704F9AB5257E58C500A6A623 /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				704F9AC2257E595A00A6A623 /* FeedTableViewCell.swift */,
+				704F9AC3257E595A00A6A623 /* FeedTableViewCell.xib */,
+			);
+			path = "View Cells";
+			sourceTree = "<group>";
+		};
+		704F9AD0257E739100A6A623 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				704F9AD1257E73A100A6A623 /* CarService.swift */,
+				70E853F1257EF91600528BCE /* SportService.swift */,
+				70E853F4257EFC4500528BCE /* CultureService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		704F9AD5257E76C300A6A623 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				704F9AD6257E76DE00A6A623 /* NotificationName.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
 		70D7E9EE257E473000C611DA = {
 			isa = PBXGroup;
 			children = (
 				70D7E9F9257E473000C611DA /* Zemingo */,
 				70D7E9F8257E473000C611DA /* Products */,
+				DEBFE04A287C14BD83C7A9BB /* Pods */,
+				7E6B115522D9DFC0EC79C964 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +152,61 @@
 		70D7E9F9257E473000C611DA /* Zemingo */ = {
 			isa = PBXGroup;
 			children = (
+				70423F9E257EEBF300A85D91 /* Enums */,
+				70423F98257EE66200A85D91 /* Utilities */,
+				704F9AD5257E76C300A6A623 /* Extenstions */,
+				704F9AD0257E739100A6A623 /* Services */,
+				704F9AB5257E58C500A6A623 /* View Cells */,
+				704F9AAB257E534200A6A623 /* Protocols */,
+				70D7EA15257E4ABA00C611DA /* Models */,
+				70D7EA10257E497600C611DA /* View Controllers */,
 				70D7E9FA257E473000C611DA /* AppDelegate.swift */,
 				70D7E9FC257E473000C611DA /* SceneDelegate.swift */,
-				70D7E9FE257E473000C611DA /* ViewController.swift */,
 				70D7EA00257E473000C611DA /* Main.storyboard */,
 				70D7EA03257E473100C611DA /* Assets.xcassets */,
 				70D7EA05257E473100C611DA /* LaunchScreen.storyboard */,
 				70D7EA08257E473100C611DA /* Info.plist */,
 			);
 			path = Zemingo;
+			sourceTree = "<group>";
+		};
+		70D7EA10257E497600C611DA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				70D7E9FE257E473000C611DA /* MainTabViewController.swift */,
+				70D7EA11257E49AA00C611DA /* FirstViewController.swift */,
+				704F9AA8257E509800A6A623 /* SecondViewController.swift */,
+				704F9AAF257E55B800A6A623 /* FeedViewController.swift */,
+				704F9AB2257E58A800A6A623 /* CarFeedsViewController.swift */,
+				704F9AC7257E622400A6A623 /* SportAndCultureFeedsViewController.swift */,
+				704F9ACA257E6A1000A6A623 /* FeedDescriptionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		70D7EA15257E4ABA00C611DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70D7EA16257E4AC600C611DA /* Feed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E6B115522D9DFC0EC79C964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB30D61E233CF0D0E257EF78 /* Pods_Zemingo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEBFE04A287C14BD83C7A9BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52427AFE6A1F338D498CCB61 /* Pods-Zemingo.debug.xcconfig */,
+				D10C32CC1E3E1743E7C390E7 /* Pods-Zemingo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70D7EA0B257E473100C611DA /* Build configuration list for PBXNativeTarget "Zemingo" */;
 			buildPhases = (
+				2682B6B0E3846BB7B523DA8C /* [CP] Check Pods Manifest.lock */,
 				70D7E9F3257E473000C611DA /* Sources */,
 				70D7E9F4257E473000C611DA /* Frameworks */,
 				70D7E9F5257E473000C611DA /* Resources */,
+				F7EF7F32E615D3D54F3644B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D7EA07257E473100C611DA /* LaunchScreen.storyboard in Resources */,
+				704F9AC5257E595A00A6A623 /* FeedTableViewCell.xib in Resources */,
 				70D7EA04257E473100C611DA /* Assets.xcassets in Resources */,
 				70D7EA02257E473000C611DA /* Main.storyboard in Resources */,
 			);
@@ -132,14 +277,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2682B6B0E3846BB7B523DA8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zemingo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EF7F32E615D3D54F3644B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zemingo/Pods-Zemingo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zemingo/Pods-Zemingo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zemingo/Pods-Zemingo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70D7E9F3257E473000C611DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D7E9FF257E473000C611DA /* ViewController.swift in Sources */,
+				704F9AB3257E58A800A6A623 /* CarFeedsViewController.swift in Sources */,
+				704F9AA9257E509800A6A623 /* SecondViewController.swift in Sources */,
+				704F9AD2257E73A100A6A623 /* CarService.swift in Sources */,
+				70D7E9FF257E473000C611DA /* MainTabViewController.swift in Sources */,
+				70423F9B257EE67F00A85D91 /* RSSFetcher.swift in Sources */,
+				70D7EA17257E4AC600C611DA /* Feed.swift in Sources */,
+				704F9AC8257E622400A6A623 /* SportAndCultureFeedsViewController.swift in Sources */,
 				70D7E9FB257E473000C611DA /* AppDelegate.swift in Sources */,
+				70423FA0257EEC1400A85D91 /* FeedError.swift in Sources */,
+				704F9AAD257E535800A6A623 /* FeedPickable.swift in Sources */,
 				70D7E9FD257E473000C611DA /* SceneDelegate.swift in Sources */,
+				704F9AB0257E55B800A6A623 /* FeedViewController.swift in Sources */,
+				70E853F5257EFC4500528BCE /* CultureService.swift in Sources */,
+				70423FA4257EEC8D00A85D91 /* FeedParser.swift in Sources */,
+				70E853F2257EF91600528BCE /* SportService.swift in Sources */,
+				704F9ACB257E6A1000A6A623 /* FeedDescriptionViewController.swift in Sources */,
+				704F9ACE257E733A00A6A623 /* Serviceable.swift in Sources */,
+				70D7EA12257E49AA00C611DA /* FirstViewController.swift in Sources */,
+				704F9AD7257E76DE00A6A623 /* NotificationName.swift in Sources */,
+				704F9AC4257E595A00A6A623 /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +487,7 @@
 		};
 		70D7EA0C257E473100C611DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52427AFE6A1F338D498CCB61 /* Pods-Zemingo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +507,7 @@
 		};
 		70D7EA0D257E473100C611DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10C32CC1E3E1743E7C390E7 /* Pods-Zemingo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

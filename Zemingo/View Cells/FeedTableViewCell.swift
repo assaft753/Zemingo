@@ -7,17 +7,21 @@
 
 import UIKit
 
+// Class that represents Feed's table view cell
 class FeedTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    static let identifier = "feedCell"
+    
+    @IBOutlet private weak var feedTitleLabel: UILabel!
+    
+    @IBOutlet private weak var feedDescriptionLabel: UILabel!
+    
+    // MARK:- Methods for updating cell's UI components
+    func setFeed(title: String) {
+        feedTitleLabel.text = title
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func setFeed(description: String) {
+        feedDescriptionLabel.text = description
     }
     
 }

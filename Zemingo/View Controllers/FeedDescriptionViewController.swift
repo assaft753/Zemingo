@@ -7,23 +7,24 @@
 
 import UIKit
 
+// View Controller that presents the feed description
 class FeedDescriptionViewController: UIViewController {
-
+    
+    // MARK:- Storyboard referenced properties
+    @IBOutlet private weak var feedDescriptionTextView: UITextView!
+    
+    // MARK:- Properties
+    var feedDescription: String!
+    
+    // MARK:- View Controller Life-Cycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupFeedDescriptionTextView()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK:- Methods
+    private func setupFeedDescriptionTextView() {
+        feedDescriptionTextView.text = feedDescription
     }
-    */
-
 }
